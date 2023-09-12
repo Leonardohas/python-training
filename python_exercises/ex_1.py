@@ -13,7 +13,7 @@ cont = cattle_MN = cattle_GN = weight = avaregeWeight = sum = cattle_MP = cattle
 
 while(cont < cattle):
   numberID = int(input("Digite um numero de identificação: "))
-  weight = int(input("Digite o weight do boi: "))
+  weight = int(input("Digite o peso do boi: "))
   sum = sum + weight
   cont = 1 + cont
   if(weight < cattle_MP or cattle_MP == 0):
@@ -26,4 +26,4 @@ while(cont < cattle):
 print("O boi mais gordo pesa: " + str(cattle_GP) + " E seu ID é: " + str (cattle_GN))
 print("O boi mais magro pesa: " + str (cattle_MP)+ " E seu ID é: " + str (cattle_MN))
 avaregeWeight = sum / cattle
-print(avaregeWeight)
+print('A media dos pesos é: ', float(avaregeWeight),'Kg')
