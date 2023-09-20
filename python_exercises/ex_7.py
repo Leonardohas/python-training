@@ -13,3 +13,9 @@ Por exemplo se ele digitar o número 5, então será mostrado:
 5 x 10 =	50
 
 '''
+
+num = float(input("Digite um nuemro para ver sua tabuada: "))
+sum = 0
+for c in range(1,11):
+  sum = num * c
+  print(str (num) + " x " + str (c) + " = " + str (sum))
